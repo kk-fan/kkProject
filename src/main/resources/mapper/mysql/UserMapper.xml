@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo1.repository.UserMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo1.model.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="real_name" jdbcType="VARCHAR" property="realName" />
+    <result column="gender" jdbcType="CHAR" property="gender" />
+    <result column="bothirday" jdbcType="DATE" property="bothirday" />
+    <result column="id_card" jdbcType="VARCHAR" property="idCard" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="is_delete" jdbcType="CHAR" property="isDelete" />
+    <result column="sign_time" jdbcType="VARCHAR" property="signTime" />
+    <result column="update_time" jdbcType="VARCHAR" property="updateTime" />
+    <result column="role_id" jdbcType="VARCHAR" property="roleId" />
+  </resultMap>
+</mapper>
